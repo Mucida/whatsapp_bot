@@ -24,7 +24,7 @@ twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 groq_client = Groq(api_key=GROQ_API_KEY)
 #modelo = "gemma2-9b-it"
 modelo = "llama-3.3-70b-versatile"
-modelo = "whisper-large-v3-turbo"# Criar aplicativo Flask
+#modelo = "whisper-large-v3-turbo"# Criar aplicativo Flask
 app = Flask(__name__)
 
 # Histórico da conversa (mantém contexto)s
